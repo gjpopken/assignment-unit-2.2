@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // We create two variables, one called 'secret' and the other called 'code'. Code is initialized as 123. 
 // We check to see if the value of 'code' is exactly equal to 123. 
 // Since this is true, the value of 'secret' becomes 'super', and the value of code is multiplied by 2. 
-// Then the script checks if code is now greater than 250. It isn't, so the value of 'secret' does not become 'duper'. 
+// Then the script checks if code is now greater than 250. It isn't (it's 246), so the value of 'secret' does not become 'duper'. 
 //We console log 'super'. 
 
 //CODE
@@ -74,7 +74,7 @@ console.log(secret)
 // We create three variables: 'isStudent' with a value of true; age with a value of 34; and zip with a value of 55407.
 // The script checks if 'isStudent' is set to true, then if the zip code is greater than 8000. It isn't.
 // Then it checks if student is false or if the age is less than 30. Neither is true, so it moves on to the next if statement. 
-// Then it just checks if 'isStudent' is true. We console log 'Welcome to Prime!'. 
+// Then it just checks if 'isStudent' is true. We console log 'Welcome to Prime!' and the script doesn't evaluate anything else. 
 
 //CODE
 /*
