@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'name' and assign it the value 'Dane'.
+// We check to see if the value of name is equal to 'Mary'. 
+// 'Dane' is not the same as 'Mary', so we don't log 'Hi, Mary!'.
+// Since they're not the same, we console log 'How do you do?' instead.
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create two variables, one called 'secret' and the other called 'code'. Code is initialized as 123. 
+// We check to see if the value of 'code' is exactly equal to 123. 
+// Since this is true, the value of 'secret' becomes 'super', and the value of code is multiplied by 2. 
+// Then the script checks if code is now greater than 250. It isn't, so the value of 'secret' does not become 'duper'. 
+//We console log 'super'. 
 
 //CODE
 /*
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create three variables: 'isStudent' with a value of true; age with a value of 34; and zip with a value of 55407.
+// The script checks if 'isStudent' is set to true, then if the zip code is greater than 8000. It isn't.
+// Then it checks if student is false or if the age is less than 30. Neither is true, so it moves on to the next if statement. 
+// Then it just checks if 'isStudent' is true. We console log 'Welcome to Prime!'. 
 
 //CODE
 /*
@@ -130,12 +131,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX: colorOne and colorTwo's values should be swapped;
+// should be: let colorOne = 'blue';
+// let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX: colorTwo must also be set to 'purple'.
+// That will look like: colorTwo = 'purple';
 }
 */
 
@@ -147,6 +154,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX: we need the && operator, which stands for logical and, instead of \\.
+// instead: if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +169,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX: right now, it is checking if the minAge is less than or equal to age.
+// instead: if (age >= minAge) {
 if(minAge <= age) {
   console.log('no entry');
 } else {
